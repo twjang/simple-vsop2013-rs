@@ -1,0 +1,20 @@
+[package]
+name = "simple-vsop2013"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+include-bytes-plus = "1.1.0"
+
+[features]
+mercury=[]
+venus=[]
+emb=[]
+mars=[]
+jupiter=[]
+saturn=[]
+uranus=[]
+neptune=[]
+pluto=[]
+all=[ "mercury", "venus", "emb", "mars", "jupiter", "saturn", "uranus", "neptune", "pluto"]
+default=["emb"]
