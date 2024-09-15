@@ -2,6 +2,13 @@
 name = "simple-vsop2013"
 version = "0.1.0"
 edition = "2021"
+authors = ["Taewoong Jang"]
+description = "vsop2013 implementation"
+readme = "README.md"
+license-file = "LICENSE"
+keywords = ["solar_system", "vsop2013", "astronomy"]
+categories = ["science"]
+
 
 [dependencies]
 include-bytes-plus = "1.1.0"
